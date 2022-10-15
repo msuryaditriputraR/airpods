@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirPods</title>
+
+    <!-- ============= ICONS ============== -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- ============= STYLE CSS ============== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <!-- ============= HEADER============== -->
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="nav__logo">AirPods</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#description" class="nav__link">Deskripsi</a></li>
+                    <li class="nav__item"><a href="#specification" class="nav__link">Spesifikasi</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__actions">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-arrow-down-s-line"></i>
+                </div>
+                <a href="#" class="nav__btn">Beli</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ============= Description ============== -->
+    <main class="main">
+        <section class="description" id="description">
+            <div class="description__data">
+                <h1 class="description__title">AirPods</h1>
+                <p class="description__desc">Dengan waktu dengar dan bicara yang panjang serta casing pengisian daya
+                    nirkabel yang disediakan, AirPods memberikan pengalaman headphone nirkabel yang luar biasa. </p>
+            </div>
+
+            <div class="description__img">
+                <img src="assets/img/airpod1.png" alt="" class="airpod1">
+                <img src="assets/img/airpod2.png" alt="" class="airpod2">
+            </div>
+
+            <div class="description__scroll">
+                <span class="description__scroll-text">Scroll down for more</span>
+                <a href="#specification">
+                    <i class="ri-mouse-line description__scroll-icon"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- ============= HEADER============== -->
+
+        <section class="specification" id="specification">
+            <div class="specification__content">
+                <div class="specification__box">
+                    <p class="specification__sub-title">Kekuatan baterai lebih dari</p>
+                    <h3 class="specification__title">24<span> jam</span></h3>
+                    <p class="specification__description">dengan casing pengisian daya</p>
+                </div>
+                <div class="specification__box">
+                    <p class="specification__sub-title">Waktu dengar hingga</p>
+                    <h3 class="specification__title">5<span> Jam</span></h3>
+                    <p class="specification__description">dalam sekali isi daya</p>
+                </div>
+                <div class="specification__box">
+                    <p class="specification__sub-title">Hanya dengan</p>
+                    <h3 class="specification__title">15<span> menit</span></h3>
+                    <p class="specification__description">pengisian daya tersedia hingga 3 jam waktu dengar</p>
+                </div>
+            </div>
+
+            <div class="specification__img">
+                <img src="assets/img/airpods.png" alt="" class="airpods">
+            </div>
+        </section>
+    </main>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+
+
+    <!-- TIMELINE MAX -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TimelineMax.min.js"></script>
+
+    <!-- SCROLLMAGIC -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js"></script>
+
+    <!-- MAIN -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
